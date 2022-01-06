@@ -1,0 +1,62 @@
+/* Init formats */
+#divbox a{
+	margin: 0;
+	padding:0;
+}
+#divbox{
+	background:  #000000 ;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	margin: 0;
+	padding: 0;
+}
+#divbox_data{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#divbox_ajax{
+	display: none; 
+	width: 400px;
+}
+
+/* Skin default*/
+.divbox_default{ 
+	margin: 0; 
+	padding: 0;
+}
+.divbox_default{
+	background: rgba(206,224,2,0.5) url(images/Loader.gif) no-repeat center center;
+	border: 1px solid #cee002; 
+}
+.divbox_default.white{
+	
+	background-color:rgba(206,224,2,0.5);
+	border: none;
+}
+.divbox_default .number{ 
+	position: absolute;
+	z-index: 1006;
+	width: 30px;
+	height: 24px;
+	cursor: pointer;
+}
+.divbox_default .number{
+	right: 30px;
+	width: 20px;
+}
+.divbox_default .caption{
+	display: none;
+	/* background: #ccc; */
+	opacity: .5;
+	filter:alpha(opacity=50);
+	color: #000;
+	padding-left: 30px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+

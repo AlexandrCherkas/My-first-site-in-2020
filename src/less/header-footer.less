@@ -1,0 +1,98 @@
+header {
+    grid-column: 1/span 3;
+    grid-row: 1;
+        
+    padding: 10px;
+    padding-left: 20px;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+        .pre-header{
+            display: grid;
+            grid-template-columns:auto 270px 1fr;
+            grid-template-rows: 90px;
+            justify-items: end;
+            align-items: stretch;
+            .logo {
+                grid-column: 1;
+                grid-row: 1;
+                padding-top: 7px;
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+            .Public {
+                grid-column:2;
+                grid-row: 1;
+                padding-top: 10px;
+                .call-us {
+                    font-size: 18px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                span{
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+                        
+            }
+            .nav {
+                grid-column: 3;
+                grid-row: 1;
+                margin:10px;
+                .nav-link{
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                #dropdown{
+                    display: none;
+
+                }
+            }
+        }
+}
+
+footer{
+    grid-column:1/span 3;
+    grid-row: 7;
+    margin-top: 0px;
+    box-shadow: 0 -3px 5px 1px rgba(163, 163, 163, 0.1);
+    background: url('Images/dots.png') 0 0 repeat;
+    padding: 10px;
+    color: #fff;
+    .footer-q{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 100px;
+        
+        .brand-info-footer{
+            grid-column: 1;
+            grid-row: 1;
+            color: #cee002;
+        }
+        .Public-footer{
+            display: inline;
+            grid-column: 2;
+            grid-row: 1;
+            span{
+                margin-right: 20px;
+            }
+        .call-us-footer{
+            color: #fff;
+            }
+        &.data{
+            grid-column: 3;
+            grid-row: 1;
+            
+        }
+    }
+}
+        
+.data-text-transform{
+text-transform: uppercase;
+}
+
+        
+    }
